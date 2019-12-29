@@ -29,5 +29,26 @@ namespace Gerenciador_de_Projetos.Controller
             conexao.ExecuteQueries(query);
             conexao.CloseConnection();
         }
+
+        public void atualizarDados(string nome, string cpf, string rg, string datacad, string datanasc,
+            string tel1, string tel2, string codcli)
+        {
+            Model.ConexaoDAO conexao = new Model.ConexaoDAO();
+            conexao.OpenConection();
+
+            string query = "UPDATE TbClientes SET nomcli         = '" + nome + "' , " +
+                                                " cpf            = '" + cpf + "'," +
+                                                " rg             = '" + rg + "', " +
+                                                " datacadastro   = '" + datacad + "', " +
+                                                " datanascimento = '" + datanasc + "', " +
+                                                " tel1           = '" + tel1 + "', " +
+                                                " tel2           = '" + tel2 + "'" +
+                                                " WHERE " +
+                                                " id_cliente         = '" + codcli + "';";
+
+            conexao.ExecuteQueries(query);
+            conexao.CloseConnection();
+
+        }
     }
 }

@@ -12,9 +12,11 @@ namespace Gerenciador_de_Projetos.View
 {
     public partial class frmBuscaClientes : Form
     {
-        public frmBuscaClientes()
+        ucCadClientes uc;
+        public frmBuscaClientes(ucCadClientes ucCad)
         {
             InitializeComponent();
+            uc = ucCad;
         }
 
         private void btnProcurar_Click(object sender, EventArgs e)
@@ -27,6 +29,21 @@ namespace Gerenciador_de_Projetos.View
                                                                   "like ('%"+textBox1.Text+"%');");
 
             conexao.CloseConnection();
+        }
+
+        private void btnCarregarDados_Click(object sender, EventArgs e)
+        {
+            var index = dataGridView1.CurrentRow.Index;
+            uc.txtCodCli.Text = dataGridView1.Rows[index].Cells[0].Value.ToString();
+            uc.txtNomeCli.Text = dataGridView1.Rows[index].Cells[1].Value.ToString();
+            uc.txtCpfCli.Text = dataGridView1.Rows[index].Cells[2].Value.ToString();
+            uc.txtRgCli.Text = dataGridView1.Rows[index].Cells[3].Value.ToString();
+            //uc.txtDataCad.Text = dataGridView1.Rows[index].Cells[4].Value.ToString();
+            uc.txtDataNasc.Text = dataGridView1.Rows[index].Cells[5].Value.ToString();
+            uc.txtTel1.Text = dataGridView1.Rows[index].Cells[6].Value.ToString();
+            uc.txtTel2.Text = dataGridView1.Rows[index].Cells[7].Value.ToString();
+
+            this.Dispose();
         }
     }
 }

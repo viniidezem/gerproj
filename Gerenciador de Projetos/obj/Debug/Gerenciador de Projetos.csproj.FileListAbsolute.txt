@@ -12,3 +12,17 @@ C:\Users\vinii\Desktop\Desenvolvimento\Gerenciador de Projetos\Gerenciador de Pr
 C:\Users\vinii\Desktop\Desenvolvimento\Gerenciador de Projetos\Gerenciador de Projetos\bin\Debug\System.Data.SqlClient.xml
 C:\Users\vinii\Desktop\Desenvolvimento\Gerenciador de Projetos\Gerenciador de Projetos\obj\Debug\Gerenciador de Projetos.csproj.CopyComplete
 C:\Users\vinii\Desktop\Desenvolvimento\Gerenciador de Projetos\Gerenciador de Projetos\obj\Debug\Gerenciador_de_Projetos.View.frmBuscaClientes.resources
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\bin\Debug\Gerenciador de Projetos.exe.config
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\bin\Debug\Gerenciador de Projetos.exe
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\bin\Debug\Gerenciador de Projetos.pdb
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador de Projetos.csprojAssemblyReference.cache
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador_de_Projetos.Properties.Resources.resources
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador_de_Projetos.View.frmBuscaClientes.resources
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador_de_Projetos.View.frmTelaPrincipal.resources
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador_de_Projetos.View.ucCadClientes.resources
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador de Projetos.csproj.GenerateResource.cache
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador de Projetos.csproj.CopyComplete
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador de Projetos.exe
+C:\Users\vinii\Source\Repos\viniidezem\gerproj\Gerenciador de Projetos\obj\Debug\Gerenciador de Projetos.pdb
