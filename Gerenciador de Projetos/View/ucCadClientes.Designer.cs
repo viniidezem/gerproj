@@ -52,7 +52,6 @@
             this.txtTel1 = new System.Windows.Forms.MaskedTextBox();
             this.txtTel2 = new System.Windows.Forms.MaskedTextBox();
             this.btnNovo = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -258,7 +257,7 @@
             // btnNovo
             // 
             this.btnNovo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNovo.Location = new System.Drawing.Point(577, 155);
+            this.btnNovo.Location = new System.Drawing.Point(577, 153);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(75, 23);
             this.btnNovo.TabIndex = 46;
@@ -266,18 +265,10 @@
             this.btnNovo.UseVisualStyleBackColor = true;
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(411, 86);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(8, 8);
-            this.button2.TabIndex = 47;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(577, 181);
+            this.btnSalvar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSalvar.Location = new System.Drawing.Point(577, 182);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 48;
@@ -286,6 +277,7 @@
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancelar.Location = new System.Drawing.Point(577, 211);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
@@ -300,7 +292,6 @@
             this.AutoSize = true;
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.txtTel2);
             this.Controls.Add(this.txtTel1);
@@ -351,7 +342,6 @@
         public System.Windows.Forms.MaskedTextBox txtTel1;
         public System.Windows.Forms.MaskedTextBox txtTel2;
         public System.Windows.Forms.Button btnNovo;
-        private System.Windows.Forms.Button button2;
         public System.Windows.Forms.Button btnSair;
         public System.Windows.Forms.Button btnExcluir;
         public System.Windows.Forms.Button btnAlterar;

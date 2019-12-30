@@ -69,6 +69,11 @@ namespace Gerenciador_de_Projetos.View
         {
             btnNovo.Visible = false;
             btnInserir.Visible = true;
+            btnAlterar.Visible = false;
+            btnCancelar.Visible = true;
+            btnSalvar.Visible = true;
+            btnExcluir.Visible = false;
+
 
             txtCodCli.Enabled = false;
             txtNomeCli.Enabled = true;
